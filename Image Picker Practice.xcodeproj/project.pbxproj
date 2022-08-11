@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		83784DF3289ECCB1003DAC4D /* Image_Picker_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83784DF2289ECCB1003DAC4D /* Image_Picker_PracticeApp.swift */; };
-		83784DF5289ECCB1003DAC4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83784DF4289ECCB1003DAC4D /* ContentView.swift */; };
+		83784DF5289ECCB1003DAC4D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83784DF4289ECCB1003DAC4D /* ProfileView.swift */; };
 		83784DF7289ECCB3003DAC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83784DF6289ECCB3003DAC4D /* Assets.xcassets */; };
 		83784DFA289ECCB3003DAC4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83784DF9289ECCB3003DAC4D /* Preview Assets.xcassets */; };
+		83784E01289ECF69003DAC4D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83784E00289ECF69003DAC4D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83784DEF289ECCB1003DAC4D /* Image Picker Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Picker Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83784DF2289ECCB1003DAC4D /* Image_Picker_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Picker_PracticeApp.swift; sourceTree = "<group>"; };
-		83784DF4289ECCB1003DAC4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83784DF4289ECCB1003DAC4D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		83784DF6289ECCB3003DAC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83784DF9289ECCB3003DAC4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83784E00289ECF69003DAC4D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				83784DF2289ECCB1003DAC4D /* Image_Picker_PracticeApp.swift */,
-				83784DF4289ECCB1003DAC4D /* ContentView.swift */,
+				83784DF4289ECCB1003DAC4D /* ProfileView.swift */,
 				83784DF6289ECCB3003DAC4D /* Assets.xcassets */,
 				83784DF8289ECCB3003DAC4D /* Preview Content */,
+				83784E00289ECF69003DAC4D /* ImagePicker.swift */,
 			);
 			path = "Image Picker Practice";
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83784DF5289ECCB1003DAC4D /* ContentView.swift in Sources */,
+				83784E01289ECF69003DAC4D /* ImagePicker.swift in Sources */,
+				83784DF5289ECCB1003DAC4D /* ProfileView.swift in Sources */,
 				83784DF3289ECCB1003DAC4D /* Image_Picker_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
